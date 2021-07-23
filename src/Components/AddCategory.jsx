@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Form } from 'react-bootstrap';
 
 const AddCategory = ({setCategories}) => {
 
@@ -20,14 +21,14 @@ const AddCategory = ({setCategories}) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input 
+        <Form onSubmit={handleSubmit}>
+            <Form.Control 
                 type="text"
                 value={inputValue}
                 placeholder="Search anything you want"
                 onChange={ handleInputChange }
             />
-        </form>
+        </Form>
     )
 }
 
