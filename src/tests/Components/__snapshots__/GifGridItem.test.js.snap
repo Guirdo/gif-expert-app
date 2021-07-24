@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGridItem should render GifGridItem correctly 1`] = `
+<Col
+  className="mx-1 mb-4 p-2 bg-white animate__animated animate__fadeIn border border-dark rounded"
+  lg={3}
+  md={3}
+  sm={10}
+>
+  <Image
+    alt="A sample title"
+    fluid={true}
+    rounded={false}
+    roundedCircle={false}
+    src="https://localhost/something.jpg"
+    thumbnail={false}
+  />
+  <p
+    className="mt-3 text-center"
+  >
+    A sample title
+  </p>
+</Col>
+`;

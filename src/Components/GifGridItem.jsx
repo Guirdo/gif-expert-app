@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Col,Image } from 'react-bootstrap';
 
 export const GifGridItem = ( { title,url } ) => {
@@ -11,4 +12,9 @@ export const GifGridItem = ( { title,url } ) => {
             <p className="mt-3 text-center">{title}</p>
         </Col>
     )
+}
+
+GifGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
 }

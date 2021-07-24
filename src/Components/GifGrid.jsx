@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Col,Row } from 'react-bootstrap';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 import { GifGridItem } from './GifGridItem';
@@ -24,4 +25,8 @@ export const GifGrid = ({ category }) => {
             </Row>
         </Col>
     )
+}
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired,
 }

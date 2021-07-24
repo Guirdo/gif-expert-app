@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGrid should show the component correctly 1`] = `
+<Col>
+  <h3
+    className="mt-2 animate__animated animate__flipInX"
+  >
+    Simpson
+  </h3>
+  <p
+    className="animate__animated animate__bounce"
+  >
+    LOADING...
+  </p>
+  <Row
+    className="justify-content-around mt-3"
+  />
+</Col>
+`;

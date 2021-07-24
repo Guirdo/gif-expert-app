@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing AddCategory should show it right 1`] = `
+<Form
+  onSubmit={[Function]}
+>
+  <FormControl
+    onChange={[Function]}
+    placeholder="Search anything you want"
+    type="text"
+    value=""
+  />
+</Form>
+`;
